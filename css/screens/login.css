@@ -1,0 +1,58 @@
+.welcome {
+  margin-top: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome__icon i {
+  color: var(--line-color);
+}
+
+.welcome__title {
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome__title h1 {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+.welcome__title p {
+  align-self: center;
+  width: 80%;
+  padding: 16px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  opacity: 0.4;
+  line-height: 28px;
+}
+
+.login-area {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.login-area__btn {
+  width: 75%;
+  height: 60px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_active,
+.login-area__btn:hover {
+  background-color: var(--line-color);
+  color: #f1f1f1;
+}
