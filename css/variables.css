@@ -1,4 +1,7 @@
 :root {
   --line-color: #00b900;
+  --head-color: #202a43;
+  --search-color: #323b54;
   --horizontal-space: 25px;
+  --left-margin: 25px;
 }
