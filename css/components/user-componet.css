@@ -12,7 +12,25 @@
 
 .common-item--big {
   height: 140px;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.common-item--chats {
+  height: 90px;
+  font-size: 1.4rem;
+  padding: 15px 10px 5px 10px;
+  align-items: flex-start;
+}
+
+.common-item--chats .common-item__btns {
+  margin-top: 10px;
+}
+
+.common-item--chats .common-item__infos i {
+  margin-top: 10px;
+  width: 100%;
+  font-size: 1.2rem;
+  opacity: 0.4;
 }
 
 .common-item__infos {
@@ -28,7 +46,7 @@
 }
 
 .common-item__infos .item__title {
-  margin-left: 10px;
+  margin-left: 20px;
   font-weight: 600;
 }
 
