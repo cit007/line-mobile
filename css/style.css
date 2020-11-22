@@ -15,6 +15,7 @@
 @import "screens/home.css";
 @import "screens/chats.css";
 @import "screens/chat.css";
+@import "screens/timeline.css";
 
 body {
   background-color: var(--line-color);

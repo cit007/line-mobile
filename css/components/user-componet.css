@@ -63,6 +63,11 @@
   height: 80px;
 }
 
+.item__image--small {
+  width: 28px;
+  height: 28px;
+}
+
 .common-item__btns {
   display: flex;
   justify-content: flex-start;
