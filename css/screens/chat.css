@@ -25,12 +25,14 @@
 }
 
 .chat-main__send {
+  margin-left: 20px;
   margin-bottom: 10px;
   align-self: flex-start;
   display: flex;
 }
 
 .chat-main__recv {
+  margin-right: -70px;
   margin-bottom: 10px;
   align-self: flex-end;
   display: flex;
@@ -39,6 +41,7 @@
 .chat-main_text {
   width: 40%;
   padding: 20px;
+  margin-left: 10px;
 
   margin-top: 3px;
   display: flex;
