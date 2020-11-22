@@ -1,0 +1,56 @@
+/* START common items----------- */
+.common-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+}
+
+.common-item--hr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.common-item--big {
+  height: 140px;
+  font-size: 1.5rem;
+}
+
+.common-item__infos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+}
+
+.common-item__infos i {
+  width: 35px;
+  font-size: 27px;
+}
+
+.common-item__infos .item__title {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.item__image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+
+.item__image--big {
+  width: 80px;
+  height: 80px;
+}
+
+.common-item__btns {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 30px;
+  opacity: 0.4;
+}
+
+/* END common items----------- */
