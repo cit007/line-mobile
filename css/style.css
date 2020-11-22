@@ -5,6 +5,8 @@
 
 /* Components */
 @import "components/status-bar.css";
+@import "components/head-menu.css";
+@import "components/head-search.css";
 @import "components/user-componet.css";
 @import "components/bottom-nav.css";
 

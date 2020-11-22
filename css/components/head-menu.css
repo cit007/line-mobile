@@ -1,0 +1,22 @@
+.common-head {
+  background-color: var(--head-color);
+  color: #f2f2f2;
+  font-size: 1.6em;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.common-head_menubox {
+  height: 60px;
+  padding: 0px 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.common-head__icons {
+  display: flex;
+  gap: 20px;
+}
