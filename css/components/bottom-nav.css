@@ -50,4 +50,22 @@
   top: -5px;
   right: -5px;
 }
+
+/* chat input */
+.btm-nav__input {
+  width: 200px;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btm-nav__input::placeholder {
+  padding: 10px;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.btm-nav__input:focus {
+}
 /* E-------------NAV------------ */
