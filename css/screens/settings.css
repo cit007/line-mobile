@@ -1,0 +1,8 @@
+.settings-head__search {
+  height: 50px;
+  background-color: var(--settings-color);
+}
+
+.setting--margin {
+  margin-left: 20px;
+}
