@@ -28,4 +28,8 @@
 .btm-nav__img {
   margin-bottom: 5px;
 }
+
+.btm-nav__icon i:hover {
+  color: var(--line-color);
+}
 /* E-------------NAV------------ */
