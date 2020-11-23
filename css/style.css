@@ -23,6 +23,7 @@
 body {
   background-color: var(--line-color);
   font-family: "Open Sans", sans-serif;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,4 +34,25 @@ body {
   background-color: #ffffff;
   width: 540px;
   height: 100vh;
+}
+
+@media screen and (max-width: 540px) {
+  .noti-screensize {
+    display: none;
+  }
+  .phone-area {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 541px) {
+  .noti-screensize {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: block;
+  }
+  .phone-area {
+    display: none;
+  }
 }

@@ -1,8 +1,7 @@
 /* S-------------NAV------------ */
 .btm-nav {
-  position: absolute;
-  width: 100%;
-  left: 0;
+  position: fixed;
+  width: 540px;
   bottom: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   /* height: 80px; */
