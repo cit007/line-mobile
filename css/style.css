@@ -16,6 +16,7 @@
 @import "screens/chats.css";
 @import "screens/chat.css";
 @import "screens/timeline.css";
+@import "screens/wallet.css";
 
 body {
   background-color: var(--line-color);

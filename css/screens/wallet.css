@@ -1,0 +1,109 @@
+.wallet-head {
+  display: flex;
+}
+
+.wallet-head i {
+  margin: 0px 10px;
+  opacity: 0.4;
+}
+
+.circle_letter {
+  margin: 0px 10px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  font-size: 0.9rem;
+  background-color: var(--line-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wallet-linepay {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wallet-linepay__area {
+  width: 80%;
+  height: 100px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 40px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wallet-linepay__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.wallet-linepay__text span:nth-child(1) {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.wallet-linepay__text span:nth-child(2) {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.wallet-linepay__text span:nth-child(3) {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.wallet-linepay__img {
+  margin-right: 50px;
+  color: var(--line-color);
+}
+
+/* icons */
+.wallet-icons {
+  margin-top: 35px;
+}
+
+/* ads */
+.wallet-ads {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wallet-ads__area {
+  width: 80%;
+  height: 150px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.wallet-ads__img {
+  width: 60%;
+  height: 100%;
+  background-image: url(https://cdn.pixabay.com/photo/2020/08/22/12/36/yoga-5508336__340.png);
+  background-position: center;
+  background-size: cover;
+
+  border-radius: 20px;
+}
+
+.wallet-ads__text {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wallet-ads__text span:last-child {
+  opacity: 0.4;
+}
