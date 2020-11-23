@@ -40,3 +40,8 @@
 .home-service__icon .icon_img {
   margin-bottom: 20px;
 }
+
+/* animation */
+.home-head__setting:hover {
+  animation: 1.5s rotation;
+}

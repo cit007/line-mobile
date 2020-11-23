@@ -9,6 +9,7 @@
 @import "components/head-search.css";
 @import "components/user-componet.css";
 @import "components/bottom-nav.css";
+@import "components/animation.css";
 
 /* Screens */
 @import "screens/login.css";
