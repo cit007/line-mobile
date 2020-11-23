@@ -26,10 +26,28 @@
 }
 
 .btm-nav__img {
+  position: relative;
   margin-bottom: 5px;
 }
 
 .btm-nav__icon i:hover {
   color: var(--line-color);
+  animation: 1.5s rotationY;
+}
+
+.btm-nav__noti {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+
+  top: -5px;
+  right: -5px;
 }
 /* E-------------NAV------------ */

@@ -43,5 +43,5 @@
 
 /* animation */
 .home-head__setting:hover {
-  animation: 1.5s rotation;
+  animation: 0.2s rotation;
 }

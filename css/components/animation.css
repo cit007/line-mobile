@@ -3,6 +3,15 @@
     transform: rotate(180deg);
   }
   to {
-    transform: rodtate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotationY {
+  from {
+    transform: rotateY(180deg);
+  }
+  to {
+    transform: rotateY(360deg);
   }
 }
